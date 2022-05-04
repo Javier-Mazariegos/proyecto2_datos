@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="arbitroenpartido4" directorySegmentName="seg_0" id="D75C9FF5-88FA-0CD4-F5CE-223DE5F05A29">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-05-04 04:13:25 UTC</createdTime>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<sourcePk>5DADF9F6-2AF7-7C16-0CC3-62E27AD6101B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CFB1FC3B-9B95-B35B-18DF-2579901EFC86</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>05D3095D-2DEE-B187-875E-EE6C132C9233</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

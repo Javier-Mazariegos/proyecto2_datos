@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SEDE-PARTIDO" directorySegmentName="seg_0" id="C5613C37-9153-D7A8-CBC6-CC87DB5D7A70">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-03-25 18:48:35 UTC</createdTime>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<sourcePk>5616AF40-5891-FF6E-1F21-544D1039440C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C3D78DFC-095A-24A1-CFEF-38F33AD9A298</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B7BF9F10-A3B2-6B2A-3768-0BA868EF3C44</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

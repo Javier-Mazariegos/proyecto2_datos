@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B7BF9F10-A3B2-6B2A-3768-0BA868EF3C44" name="PARTIDO">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-03-07 14:58:55 UTC</createdTime>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id partido" id="97870F6E-8CCD-8F2D-890E-8375D55800E3">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-03-07 15:10:58 UTC</createdTime>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha y hora" id="72616EC7-C0C5-1DC1-1F4D-2F8D7CD8CF65">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-03-25 18:48:22 UTC</createdTime>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id de sede" id="C34BB0D4-0DB5-1C76-73D4-7F91A2F3243C">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-03-25 18:48:35 UTC</createdTime>
+<generatorID>C5613C37-9153-D7A8-CBC6-CC87DB5D7A70</generatorID>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<referedAttribute>F2EDFD49-2CB0-87BE-1F94-ABFA1D8DE3A0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id equipo local" id="41862741-78FC-6FC3-2504-951A47520E72">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-03-25 18:56:34 UTC</createdTime>
+<generatorID>F630F837-DFD9-11C5-4E2D-AE04D1227772</generatorID>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<referedAttribute>5238DBD9-015C-36D5-7E35-A400B9FF5976</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id equipo visitante" id="082B82CB-5F0A-F453-F017-456F7A4EF47F">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-03-25 18:56:57 UTC</createdTime>
+<generatorID>DBD65053-FC5A-0D25-ACC0-258060E88E12</generatorID>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<referedAttribute>5238DBD9-015C-36D5-7E35-A400B9FF5976</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grupo" id="9FEEF7E1-02B9-9237-AC0E-192FF705FA06">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-05-04 03:19:57 UTC</createdTime>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id de arbitro" id="06AB9B4D-28E6-DC58-3D6C-9CB0175846A5">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-05-04 04:10:35 UTC</createdTime>
+<generatorID>31CC143F-7968-AE77-8BA1-F98D724BBF29</generatorID>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<referedAttribute>BEF8E56A-3E96-DE00-A7A9-E6411547D06B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id de arbitro1" id="C8D7547C-62F3-99ED-DDF6-D8D3FFBC97F3">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-05-04 04:10:44 UTC</createdTime>
+<generatorID>051C1E03-7A03-DFEB-8029-A0B5B6850543</generatorID>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<referedAttribute>BEF8E56A-3E96-DE00-A7A9-E6411547D06B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id de arbitro2" id="E21CB68F-1FDB-2449-6BCB-2493E9E3C146">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-05-04 04:10:51 UTC</createdTime>
+<generatorID>DA9AEBA1-F093-1DBC-2BEE-0178DE893CA0</generatorID>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<referedAttribute>BEF8E56A-3E96-DE00-A7A9-E6411547D06B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id de arbitro3" id="2B7BAF07-38ED-6373-6732-92B8E9345564">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-05-04 04:10:58 UTC</createdTime>
+<generatorID>1F27659A-94DD-36F3-7C7C-27AD820A5484</generatorID>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<referedAttribute>BEF8E56A-3E96-DE00-A7A9-E6411547D06B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EE7CD687-5D32-ED45-25BD-A32ACE0C1598" name="PARTIDO PK">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-03-07 15:13:46 UTC</createdTime>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>97870F6E-8CCD-8F2D-890E-8375D55800E3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

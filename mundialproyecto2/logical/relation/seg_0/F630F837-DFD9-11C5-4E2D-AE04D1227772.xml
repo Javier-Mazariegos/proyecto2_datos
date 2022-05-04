@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="local" directorySegmentName="seg_0" id="F630F837-DFD9-11C5-4E2D-AE04D1227772">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-03-25 18:56:34 UTC</createdTime>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<sourcePk>D7F1B925-C24B-FC26-1649-4FDB70B36EE1</sourcePk>
+<identifying>false</identifying>
+<nameOnTarget>id equipo local</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BABDA09A-96CC-5344-3D88-FF6155DA33B4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B7BF9F10-A3B2-6B2A-3768-0BA868EF3C44</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MIEMBRO FEDE DOPING PARTICIPANTE" directorySegmentName="seg_0" id="AEC9144B-A74B-3702-4C41-8E82979D50B4">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-03-28 21:44:39 UTC</createdTime>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<sourcePk>34ECE049-F57D-17F5-F79D-28C21939D0E9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>94F7A9EF-5303-1764-5766-A2B7330FFB91</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>04524298-D93E-F4DD-AFAC-131EA4A48F07</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

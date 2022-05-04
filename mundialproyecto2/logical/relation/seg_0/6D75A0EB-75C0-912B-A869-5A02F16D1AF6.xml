@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="gol y quien" directorySegmentName="seg_0" id="6D75A0EB-75C0-912B-A869-5A02F16D1AF6">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-05-04 04:13:51 UTC</createdTime>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<sourcePk>61DFDF52-D06E-919B-750E-528DC108D5D0</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>04524298-D93E-F4DD-AFAC-131EA4A48F07</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6E87F938-9E9B-ACC6-94DC-AD67128B2A3B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

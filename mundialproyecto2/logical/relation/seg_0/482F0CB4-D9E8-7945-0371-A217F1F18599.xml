@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="partido jugado - susti" directorySegmentName="seg_0" id="482F0CB4-D9E8-7945-0371-A217F1F18599">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-05-04 04:10:12 UTC</createdTime>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>05D3095D-2DEE-B187-875E-EE6C132C9233</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>96EA87AD-6FC2-E1B6-F4D0-484BCDAF700D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

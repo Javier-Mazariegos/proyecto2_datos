@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="LAB-PARTICIPANTE DOPING" directorySegmentName="seg_0" id="FC435108-9AC4-3C03-1B14-1AB6F338E743">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-03-28 21:44:17 UTC</createdTime>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<sourcePk>05B7843A-A684-6B5D-30DA-4792E6E92EA0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5C68A0AA-CAEA-F041-4D30-5082750CDBDA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>04524298-D93E-F4DD-AFAC-131EA4A48F07</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
