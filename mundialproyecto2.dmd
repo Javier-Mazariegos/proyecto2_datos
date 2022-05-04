@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="mundialproyecto2" id="86714E68-FCB4-61E5-D0BD-10513BAD15C0" version="3.5">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-03-07 14:55:28 UTC</createdTime>
+<ownerDesignName>mundialProyecto</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>86714E68-FCB4-61E5-D0BD-10513BAD15C0</designId>
+</OSDM_Design>
