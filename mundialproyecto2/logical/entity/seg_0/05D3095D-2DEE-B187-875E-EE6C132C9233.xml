@@ -88,20 +88,6 @@
 <dataTypeSize>1000</dataTypeSize>
 <ownDataTypeParameters>1000,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id participante" id="B6CA5624-588E-A417-3659-966D79D0E080">
-<createdBy>fatimaavila</createdBy>
-<createdTime>2022-05-04 04:11:29 UTC</createdTime>
-<generatorID>2FA7FFFF-7918-4238-27D0-428062A5E3E8</generatorID>
-<ownerDesignName>mundialproyecto2</ownerDesignName>
-<engineerTo>
-<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
-</engineerTo>
-<referedAttribute>2F71B8E5-DD5D-8029-FCF2-C541862A8D6B</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="id de arbitro" id="22F9111A-DF7F-A2F7-D96A-9E51EB2CF48A">
 <createdBy>fatimaavila</createdBy>
 <createdTime>2022-05-04 04:12:27 UTC</createdTime>
@@ -167,6 +153,19 @@
 <item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
 </engineerTo>
 <referedAttribute>97870F6E-8CCD-8F2D-890E-8375D55800E3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="expulsiones" id="A3E7B3FE-1CF7-56C4-DB96-95F0BE15260A">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-05-05 23:06:41 UTC</createdTime>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

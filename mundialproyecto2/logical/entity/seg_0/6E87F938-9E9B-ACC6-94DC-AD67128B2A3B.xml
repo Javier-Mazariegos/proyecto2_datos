@@ -15,6 +15,16 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id gol" id="E73263C7-FCE0-0B8D-B8AF-DEFFFF6E45DF">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-05-05 23:12:01 UTC</createdTime>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="tiempo gol" id="90387C46-D6EB-9B52-8086-0E6D8F1868AE">
 <createdBy>fatimaavila</createdBy>
 <createdTime>2022-05-04 03:41:05 UTC</createdTime>
@@ -22,24 +32,37 @@
 <engineerTo>
 <item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id participante" id="ADD32108-4B81-5491-16CA-AA59A6146FD9">
+<Attribute name="id partido" id="5B19F307-ECA8-EED4-A526-0FEBCDD95A37">
 <createdBy>fatimaavila</createdBy>
-<createdTime>2022-05-04 04:13:51 UTC</createdTime>
+<createdTime>2022-05-05 23:06:23 UTC</createdTime>
 <generatorID>6D75A0EB-75C0-912B-A869-5A02F16D1AF6</generatorID>
 <ownerDesignName>mundialproyecto2</ownerDesignName>
 <engineerTo>
 <item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
 </engineerTo>
-<referedAttribute>2F71B8E5-DD5D-8029-FCF2-C541862A8D6B</referedAttribute>
+<referedAttribute>6C590725-EA89-056B-C879-3B29A6F79719</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id miembro" id="7159FF4C-4BB3-F11D-ED99-A062CB5D8E4E">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-05-05 23:09:22 UTC</createdTime>
+<generatorID>6D75A0EB-75C0-912B-A869-5A02F16D1AF6</generatorID>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<referedAttribute>B758658E-4684-B76C-A3CC-60AD8C27F27A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -53,7 +76,9 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>ADD32108-4B81-5491-16CA-AA59A6146FD9</attributeRef>
+<attributeRef>5B19F307-ECA8-EED4-A526-0FEBCDD95A37</attributeRef>
+<attributeRef>7159FF4C-4BB3-F11D-ED99-A062CB5D8E4E</attributeRef>
+<attributeRef>E73263C7-FCE0-0B8D-B8AF-DEFFFF6E45DF</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

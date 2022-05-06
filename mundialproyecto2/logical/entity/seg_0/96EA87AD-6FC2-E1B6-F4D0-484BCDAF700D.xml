@@ -34,38 +34,79 @@
 <engineerTo>
 <item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id entra" id="CC4D5815-F89E-F57E-E630-0888B1D0B113">
+<Attribute name="id partido" id="2DE005C5-1459-E41C-D404-AE556FED2351">
 <createdBy>fatimaavila</createdBy>
-<createdTime>2022-05-04 04:04:09 UTC</createdTime>
-<generatorID>24EB57D1-B903-EC50-1058-F962D8BA7016</generatorID>
+<createdTime>2022-05-05 22:59:54 UTC</createdTime>
+<generatorID>482F0CB4-D9E8-7945-0371-A217F1F18599</generatorID>
 <ownerDesignName>mundialproyecto2</ownerDesignName>
 <engineerTo>
 <item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
 </engineerTo>
-<referedAttribute>2F71B8E5-DD5D-8029-FCF2-C541862A8D6B</referedAttribute>
+<referedAttribute>FB5FDD56-4740-75BB-3B92-A22A1C941D59</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id sale" id="414A072F-E8D1-140D-BC84-CD837F38C227">
+<Attribute name="id partido1" id="4F32C891-FA4E-7B03-0307-54E4C2C78132">
 <createdBy>fatimaavila</createdBy>
-<createdTime>2022-05-04 04:09:00 UTC</createdTime>
+<createdTime>2022-05-05 23:06:23 UTC</createdTime>
+<generatorID>24EB57D1-B903-EC50-1058-F962D8BA7016</generatorID>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<referedAttribute>6C590725-EA89-056B-C879-3B29A6F79719</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id partido2" id="2A8B3166-5FE7-C03C-B7BF-45DBBC596462">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-05-05 23:06:23 UTC</createdTime>
 <generatorID>70853A86-AF13-B77E-141E-A799286087CE</generatorID>
 <ownerDesignName>mundialproyecto2</ownerDesignName>
 <engineerTo>
 <item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
 </engineerTo>
-<referedAttribute>2F71B8E5-DD5D-8029-FCF2-C541862A8D6B</referedAttribute>
+<referedAttribute>6C590725-EA89-056B-C879-3B29A6F79719</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id miembro" id="3A73AD8C-CD64-DB61-FB40-DAEF0A7A03FC">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-05-05 23:09:22 UTC</createdTime>
+<generatorID>24EB57D1-B903-EC50-1058-F962D8BA7016</generatorID>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<referedAttribute>B758658E-4684-B76C-A3CC-60AD8C27F27A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id miembro1" id="F694BC4B-7BD7-FA41-58B7-2AD84662593A">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-05-05 23:09:22 UTC</createdTime>
+<generatorID>70853A86-AF13-B77E-141E-A799286087CE</generatorID>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<referedAttribute>B758658E-4684-B76C-A3CC-60AD8C27F27A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -80,6 +121,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>5D64DD01-A43C-66F3-DF1E-72B940121ACF</attributeRef>
+<attributeRef>81BFE5EB-6728-7BA8-862B-1B866CF111D3</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

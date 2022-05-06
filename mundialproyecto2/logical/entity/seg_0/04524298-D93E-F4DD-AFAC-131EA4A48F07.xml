@@ -15,18 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id participante" id="2F71B8E5-DD5D-8029-FCF2-C541862A8D6B">
-<createdBy>fatimaavila</createdBy>
-<createdTime>2022-03-28 22:19:47 UTC</createdTime>
-<ownerDesignName>mundialproyecto2</ownerDesignName>
-<engineerTo>
-<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="posición jugada" id="AEFAE94A-828D-CDF7-77A7-7FCCBA42A810">
 <createdBy>fatimaavila</createdBy>
 <createdTime>2022-03-25 19:12:40 UTC</createdTime>
@@ -46,59 +34,6 @@
 <engineerTo>
 <item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="goles" id="6A26A09E-41F1-8901-6B72-159554258F1A">
-<createdBy>fatimaavila</createdBy>
-<createdTime>2022-03-28 21:54:19 UTC</createdTime>
-<ownerDesignName>mundialproyecto2</ownerDesignName>
-<engineerTo>
-<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="minuto gol 1" id="6DD5FCCD-1B29-993D-B1CC-8CCF0D50FE2E">
-<createdBy>fatimaavila</createdBy>
-<createdTime>2022-03-28 21:54:42 UTC</createdTime>
-<ownerDesignName>mundialproyecto2</ownerDesignName>
-<engineerTo>
-<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT026</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id miembro" id="FA90ED42-DE66-BFBF-3B2D-F398FB493203">
-<createdBy>fatimaavila</createdBy>
-<createdTime>2022-03-25 19:10:15 UTC</createdTime>
-<generatorID>2B9C7A84-35AF-8799-78D2-E9BE9BDC16BA</generatorID>
-<ownerDesignName>mundialproyecto2</ownerDesignName>
-<engineerTo>
-<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
-</engineerTo>
-<referedAttribute>151A9C77-24AA-7AEE-7253-A0E48F4ABC2F</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id partido" id="2F87D06A-F117-1403-009A-5AE001DAAE99">
-<createdBy>fatimaavila</createdBy>
-<createdTime>2022-03-25 19:09:15 UTC</createdTime>
-<generatorID>A31FB117-EDF4-5B97-3C04-0B97696CC2D2</generatorID>
-<ownerDesignName>mundialproyecto2</ownerDesignName>
-<engineerTo>
-<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
-</engineerTo>
-<referedAttribute>97870F6E-8CCD-8F2D-890E-8375D55800E3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -134,6 +69,47 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id partido" id="6C590725-EA89-056B-C879-3B29A6F79719">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-05-05 23:06:23 UTC</createdTime>
+<generatorID>E19DFBFD-0200-2ADA-2540-7262D2B6254A</generatorID>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<referedAttribute>FB5FDD56-4740-75BB-3B92-A22A1C941D59</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id miembro" id="B758658E-4684-B76C-A3CC-60AD8C27F27A">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-05-05 23:09:22 UTC</createdTime>
+<generatorID>3481E3C4-85B5-8125-A5C6-45FA7653E196</generatorID>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<referedAttribute>151A9C77-24AA-7AEE-7253-A0E48F4ABC2F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="resultado muestra" id="5527977E-F14D-0CAE-9F50-E976C69D2FD8">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-05-05 23:09:54 UTC</createdTime>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="61DFDF52-D06E-919B-750E-528DC108D5D0" name="PARTICIPANTE PK">
@@ -145,7 +121,8 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>2F71B8E5-DD5D-8029-FCF2-C541862A8D6B</attributeRef>
+<attributeRef>6C590725-EA89-056B-C879-3B29A6F79719</attributeRef>
+<attributeRef>B758658E-4684-B76C-A3CC-60AD8C27F27A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

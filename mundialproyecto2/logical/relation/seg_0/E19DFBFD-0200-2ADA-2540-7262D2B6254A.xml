@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="partidojugado-participante" directorySegmentName="seg_0" id="E19DFBFD-0200-2ADA-2540-7262D2B6254A">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-05-05 23:06:23 UTC</createdTime>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<sourcePk>43F122FE-3B04-55B0-FC71-0177727006FF</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>05D3095D-2DEE-B187-875E-EE6C132C9233</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>04524298-D93E-F4DD-AFAC-131EA4A48F07</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
