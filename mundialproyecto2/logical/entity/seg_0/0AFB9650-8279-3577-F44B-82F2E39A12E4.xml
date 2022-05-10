@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B7BF9F10-A3B2-6B2A-3768-0BA868EF3C44" name="PARTIDO">
-<createdBy>fatimaavila</createdBy>
-<createdTime>2022-03-07 14:58:55 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0AFB9650-8279-3577-F44B-82F2E39A12E4" name="SANCION">
+<createdBy>p1jav</createdBy>
+<createdTime>2022-05-07 05:13:12 UTC</createdTime>
 <ownerDesignName>mundialproyecto2</ownerDesignName>
 <engineerTo>
 <item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
@@ -15,67 +15,73 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id partido" id="97870F6E-8CCD-8F2D-890E-8375D55800E3">
-<createdBy>fatimaavila</createdBy>
-<createdTime>2022-03-07 15:10:58 UTC</createdTime>
+<Attribute name="id_sancion" id="376E0B72-7C0A-3507-B418-92B4B927B5CC">
+<createdBy>p1jav</createdBy>
+<createdTime>2022-05-07 05:13:20 UTC</createdTime>
 <ownerDesignName>mundialproyecto2</ownerDesignName>
 <engineerTo>
 <item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
 </engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="minuto" id="FCBE3A44-C8A8-633B-37C1-3A3EAFAD3439">
+<createdBy>p1jav</createdBy>
+<createdTime>2022-05-07 05:13:34 UTC</createdTime>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="584713E7-CE16-A545-E8B1-65F8274C8033">
+<createdBy>p1jav</createdBy>
+<createdTime>2022-05-07 05:13:44 UTC</createdTime>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id partido" id="973AF730-55BA-3521-B7F0-BE84D89D88B1">
+<createdBy>p1jav</createdBy>
+<createdTime>2022-05-07 05:14:04 UTC</createdTime>
+<generatorID>105D60C5-654E-AD2E-72A3-CF29AF5F9233</generatorID>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<referedAttribute>6C590725-EA89-056B-C879-3B29A6F79719</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha y hora" id="72616EC7-C0C5-1DC1-1F4D-2F8D7CD8CF65">
-<createdBy>fatimaavila</createdBy>
-<createdTime>2022-03-25 18:48:22 UTC</createdTime>
+<Attribute name="id miembro" id="9392276B-E3B4-B33A-AC5F-B8D4672B230F">
+<createdBy>p1jav</createdBy>
+<createdTime>2022-05-07 05:14:04 UTC</createdTime>
+<generatorID>105D60C5-654E-AD2E-72A3-CF29AF5F9233</generatorID>
 <ownerDesignName>mundialproyecto2</ownerDesignName>
 <engineerTo>
 <item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id de sede" id="C34BB0D4-0DB5-1C76-73D4-7F91A2F3243C">
-<createdBy>fatimaavila</createdBy>
-<createdTime>2022-03-25 18:48:35 UTC</createdTime>
-<generatorID>C5613C37-9153-D7A8-CBC6-CC87DB5D7A70</generatorID>
-<ownerDesignName>mundialproyecto2</ownerDesignName>
-<engineerTo>
-<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
-</engineerTo>
-<referedAttribute>F2EDFD49-2CB0-87BE-1F94-ABFA1D8DE3A0</referedAttribute>
+<referedAttribute>B758658E-4684-B76C-A3CC-60AD8C27F27A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id equipo local" id="41862741-78FC-6FC3-2504-951A47520E72">
-<createdBy>fatimaavila</createdBy>
-<createdTime>2022-03-25 18:56:34 UTC</createdTime>
-<generatorID>F630F837-DFD9-11C5-4E2D-AE04D1227772</generatorID>
+<Attribute name="id de arbitro" id="72A7DC3D-39F7-13F3-70CB-534A0551A81A">
+<createdBy>p1jav</createdBy>
+<createdTime>2022-05-07 05:14:18 UTC</createdTime>
+<generatorID>22FEF0A0-0DB8-0D8B-BB2A-50334C9853FB</generatorID>
 <ownerDesignName>mundialproyecto2</ownerDesignName>
 <engineerTo>
 <item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
 </engineerTo>
-<referedAttribute>5238DBD9-015C-36D5-7E35-A400B9FF5976</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id equipo visitante" id="082B82CB-5F0A-F453-F017-456F7A4EF47F">
-<createdBy>fatimaavila</createdBy>
-<createdTime>2022-03-25 18:56:57 UTC</createdTime>
-<generatorID>DBD65053-FC5A-0D25-ACC0-258060E88E12</generatorID>
-<ownerDesignName>mundialproyecto2</ownerDesignName>
-<engineerTo>
-<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
-</engineerTo>
-<referedAttribute>5238DBD9-015C-36D5-7E35-A400B9FF5976</referedAttribute>
+<referedAttribute>BEF8E56A-3E96-DE00-A7A9-E6411547D06B</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -83,16 +89,18 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="EE7CD687-5D32-ED45-25BD-A32ACE0C1598" name="PARTIDO PK">
-<createdBy>fatimaavila</createdBy>
-<createdTime>2022-03-07 15:13:46 UTC</createdTime>
+<identifier id="458E9700-BC87-8200-AFF6-B46CDE9770A9" name="SANCION PK">
+<createdBy>p1jav</createdBy>
+<createdTime>2022-05-07 05:13:33 UTC</createdTime>
 <ownerDesignName>mundialproyecto2</ownerDesignName>
 <engineerTo>
 <item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>97870F6E-8CCD-8F2D-890E-8375D55800E3</attributeRef>
+<attributeRef>376E0B72-7C0A-3507-B418-92B4B927B5CC</attributeRef>
+<attributeRef>973AF730-55BA-3521-B7F0-BE84D89D88B1</attributeRef>
+<attributeRef>9392276B-E3B4-B33A-AC5F-B8D4672B230F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

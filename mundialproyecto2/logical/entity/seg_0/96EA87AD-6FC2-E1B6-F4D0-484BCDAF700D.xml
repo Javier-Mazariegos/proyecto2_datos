@@ -39,20 +39,6 @@
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id partido" id="2DE005C5-1459-E41C-D404-AE556FED2351">
-<createdBy>fatimaavila</createdBy>
-<createdTime>2022-05-05 22:59:54 UTC</createdTime>
-<generatorID>482F0CB4-D9E8-7945-0371-A217F1F18599</generatorID>
-<ownerDesignName>mundialproyecto2</ownerDesignName>
-<engineerTo>
-<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
-</engineerTo>
-<referedAttribute>FB5FDD56-4740-75BB-3B92-A22A1C941D59</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="id partido1" id="4F32C891-FA4E-7B03-0307-54E4C2C78132">
 <createdBy>fatimaavila</createdBy>
 <createdTime>2022-05-05 23:06:23 UTC</createdTime>
@@ -121,7 +107,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>5D64DD01-A43C-66F3-DF1E-72B940121ACF</attributeRef>
-<attributeRef>81BFE5EB-6728-7BA8-862B-1B866CF111D3</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

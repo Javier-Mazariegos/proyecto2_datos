@@ -75,19 +75,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="amonestaciones" id="CCBC8CAC-3058-5EE1-99C4-58FB55C46D89">
-<createdBy>fatimaavila</createdBy>
-<createdTime>2022-05-04 03:22:52 UTC</createdTime>
-<ownerDesignName>mundialproyecto2</ownerDesignName>
-<engineerTo>
-<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>1000</dataTypeSize>
-<ownDataTypeParameters>1000,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="id de arbitro" id="22F9111A-DF7F-A2F7-D96A-9E51EB2CF48A">
 <createdBy>fatimaavila</createdBy>
 <createdTime>2022-05-04 04:12:27 UTC</createdTime>
@@ -153,19 +140,6 @@
 <item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
 </engineerTo>
 <referedAttribute>97870F6E-8CCD-8F2D-890E-8375D55800E3</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="expulsiones" id="A3E7B3FE-1CF7-56C4-DB96-95F0BE15260A">
-<createdBy>fatimaavila</createdBy>
-<createdTime>2022-05-05 23:06:41 UTC</createdTime>
-<ownerDesignName>mundialproyecto2</ownerDesignName>
-<engineerTo>
-<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

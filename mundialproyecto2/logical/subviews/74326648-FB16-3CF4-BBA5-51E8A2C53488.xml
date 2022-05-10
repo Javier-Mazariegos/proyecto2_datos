@@ -20,11 +20,15 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="05D3095D-2DEE-B187-875E-EE6C132C9233" otype="Entity" vid="033D01C6-0241-029B-7933-66EEB49622FD">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="496" y="232" width="142" height="124"/>
+<bounds x="496" y="215" width="142" height="124"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="0AFB9650-8279-3577-F44B-82F2E39A12E4" otype="Entity" vid="1D0BEE8E-EDA8-F5EF-CB45-9C7BDE6A6DFA">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="781" y="529" width="163" height="73"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="1B1D0BBC-1D8F-32B8-1626-FE1F03990CFE" otype="Note" vid="10E58154-C8B6-C5A5-5833-23A207B3A0BF">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="719" y="82" width="120" height="113"/>
+<bounds x="782" y="56" width="120" height="113"/>
 <comment>Función: 
 Papel que desenvolverá el arbitro, como; 
 P=principal
@@ -34,9 +38,16 @@ S=suplente
 V=VAR
 </comment>
 </OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="4BCD357D-BB7F-6D73-39A3-FB67EB3B81F6" otype="Note" vid="E6784269-093F-E853-AEEF-67044882611E">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="984" y="504" width="136" height="76"/>
+<comment>tipo:
+A = Amonestacion
+E = Expulsion</comment>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="5C68A0AA-CAEA-F041-4D30-5082750CDBDA" otype="Entity" vid="7E916BB2-EB98-FECB-EC5D-B0B1BE978C8A">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="693" y="397" width="142" height="83"/>
+<bounds x="676" y="402" width="142" height="83"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="6E87F938-9E9B-ACC6-94DC-AD67128B2A3B" otype="Entity" vid="3724C086-9482-EC39-B24B-A645E282AF32">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -68,7 +79,7 @@ V=VAR
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="CFB1FC3B-9B95-B35B-18DF-2579901EFC86" otype="Entity" vid="BD0E448D-ED5F-5249-0ACF-62B197D52B9A">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="711" y="210" width="133" height="99"/>
+<bounds x="762" y="221" width="133" height="99"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="D81248CC-3DF9-0A79-B61C-02CA2C0F370B" otype="Note" vid="01CFAC4B-128D-1A84-0D66-6506EB3019C5">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -80,6 +91,24 @@ T=Cuerpo técnico
 </OView>
 </objectViews>
 <connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="105D60C5-654E-AD2E-72A3-CF29AF5F9233" otype="Relation" vid_source="A274FA14-9FE0-1BC5-DFA4-A4BF61D36E58" vid_target="1D0BEE8E-EDA8-F5EF-CB45-9C7BDE6A6DFA">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="643" y="477"/>
+<point x="781" y="532"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="22FEF0A0-0DB8-0D8B-BB2A-50334C9853FB" otype="Relation" vid_source="BD0E448D-ED5F-5249-0ACF-62B197D52B9A" vid_target="1D0BEE8E-EDA8-F5EF-CB45-9C7BDE6A6DFA">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="838" y="320"/>
+<point x="838" y="529"/>
+</points>
+</Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="24EB57D1-B903-EC50-1058-F962D8BA7016" otype="Relation" vid_source="A274FA14-9FE0-1BC5-DFA4-A4BF61D36E58" vid_target="5C84A2A4-CA45-D0B9-7960-9D6C934803EB">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
@@ -104,16 +133,7 @@ T=Cuerpo técnico
 <lineWidth>1</lineWidth>
 <points>
 <point x="535" y="188"/>
-<point x="535" y="232"/>
-</points>
-</Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="482F0CB4-D9E8-7945-0371-A217F1F18599" otype="Relation" vid_source="033D01C6-0241-029B-7933-66EEB49622FD" vid_target="5C84A2A4-CA45-D0B9-7960-9D6C934803EB">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<points>
-<point x="496" y="349"/>
-<point x="357" y="349"/>
+<point x="535" y="215"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="632E1F42-F8BB-E005-319B-56E5A2C80D13" otype="Relation" vid_source="D83ACE18-F907-616B-3D0F-E485947007EA" vid_target="CF739601-636F-3051-D1A3-D01BA24AB0AF">
@@ -148,8 +168,8 @@ T=Cuerpo técnico
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="711" y="255"/>
-<point x="638" y="255"/>
+<point x="762" y="285"/>
+<point x="638" y="285"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="AEC9144B-A74B-3702-4C41-8E82979D50B4" otype="Relation" vid_source="687C3C93-1A27-A313-9825-317B70457966" vid_target="A274FA14-9FE0-1BC5-DFA4-A4BF61D36E58">
@@ -166,8 +186,8 @@ T=Cuerpo técnico
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="711" y="285"/>
-<point x="638" y="285"/>
+<point x="762" y="315"/>
+<point x="638" y="315"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="C5613C37-9153-D7A8-CBC6-CC87DB5D7A70" otype="Relation" vid_source="66E0475C-0C19-7D91-1CC0-46E6AC44C8B6" vid_target="EDBB44E5-86FF-BD6C-7C38-3988D1D7D12C">
@@ -184,7 +204,7 @@ T=Cuerpo técnico
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="711" y="300"/>
+<point x="762" y="300"/>
 <point x="638" y="300"/>
 </points>
 </Connector>
@@ -193,7 +213,7 @@ T=Cuerpo técnico
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="711" y="270"/>
+<point x="762" y="270"/>
 <point x="638" y="270"/>
 </points>
 </Connector>
@@ -211,7 +231,7 @@ T=Cuerpo técnico
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="567" y="356"/>
+<point x="567" y="339"/>
 <point x="567" y="389"/>
 </points>
 </Connector>
@@ -229,8 +249,8 @@ T=Cuerpo técnico
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="693" y="438"/>
-<point x="643" y="438"/>
+<point x="676" y="443"/>
+<point x="643" y="443"/>
 </points>
 </Connector>
 </connectors>

@@ -27,16 +27,15 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="minutos jugados" id="A3E76F3D-E32A-AADE-F958-DFBBB63464A3">
-<createdBy>fatimaavila</createdBy>
-<createdTime>2022-03-25 19:12:58 UTC</createdTime>
+<Attribute name="minutos_juagos" id="3B2DD180-3C52-126F-A44A-802DD2D92A6E">
+<createdBy>p1jav</createdBy>
+<createdTime>2022-05-10 01:51:44 UTC</createdTime>
 <ownerDesignName>mundialproyecto2</ownerDesignName>
 <engineerTo>
 <item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id lab" id="3B0AFB72-26DB-4E60-8285-45BB5BD141BA">

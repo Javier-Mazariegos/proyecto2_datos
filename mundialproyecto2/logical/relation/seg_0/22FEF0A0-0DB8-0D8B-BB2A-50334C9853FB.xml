@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="arbitro2" directorySegmentName="seg_0" id="051C1E03-7A03-DFEB-8029-A0B5B6850543">
-<createdBy>fatimaavila</createdBy>
-<createdTime>2022-05-04 04:10:44 UTC</createdTime>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_28" directorySegmentName="seg_0" id="22FEF0A0-0DB8-0D8B-BB2A-50334C9853FB">
+<createdBy>p1jav</createdBy>
+<createdTime>2022-05-07 05:14:18 UTC</createdTime>
 <ownerDesignName>mundialproyecto2</ownerDesignName>
 <engineerTo>
 <item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
@@ -13,7 +13,7 @@
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>CFB1FC3B-9B95-B35B-18DF-2579901EFC86</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>B7BF9F10-A3B2-6B2A-3768-0BA868EF3C44</targetEntity>
+<targetEntity>0AFB9650-8279-3577-F44B-82F2E39A12E4</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>
