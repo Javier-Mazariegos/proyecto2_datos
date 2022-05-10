@@ -71,7 +71,9 @@ create table SUSTITUCIONES
 (id_sustitucion INTEGER CONSTRAINT id_sustitucion_pk primary key,
 minuto_sustitucion INTEGER NOT NULL,
 id_partido NOT NULL CONSTRAINT sustitucion_id_partido_FK REFERENCES PARTIDOS(id_partido),
-id_miembro VARCHAR(20) CONSTRAINT sustitucion_id_miembro_fk REFERENCES MIEMBROS(miembro_id));
+id_entrante VARCHAR(20) CONSTRAINT sustitucion_id_entrante_fk REFERENCES MIEMBROS(miembro_id),
+id_saliente VARCHAR(20) CONSTRAINT sustitucion_id_saliente_fk REFERENCES MIEMBROS(miembro_id),
+id_partido_null CONSTRAINT sustitucion_id_partido_null_FK REFERENCES PARTIDOS(id_partido));
 
 create table HISTORIAL_GOLES
 (id_gol INTEGER ,
