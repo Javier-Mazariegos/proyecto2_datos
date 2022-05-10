@@ -15,18 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="fecha y hora" id="A8245C31-341D-8501-CFF4-E6117FF52FEC">
-<createdBy>fatimaavila</createdBy>
-<createdTime>2022-05-04 03:22:31 UTC</createdTime>
-<ownerDesignName>mundialproyecto2</ownerDesignName>
-<engineerTo>
-<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="goles local" id="525D9C6E-0EB3-1730-DD49-0690BE48D484">
 <createdBy>fatimaavila</createdBy>
 <createdTime>2022-05-04 03:21:10 UTC</createdTime>
@@ -73,6 +61,28 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha y hora" id="A8245C31-341D-8501-CFF4-E6117FF52FEC">
+<createdBy>fatimaavila</createdBy>
+<createdTime>2022-05-04 03:22:31 UTC</createdTime>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duracion" id="3F463DD1-ACD5-9C2F-38CF-CC2B3766A36C">
+<createdBy>p1jav</createdBy>
+<createdTime>2022-05-10 18:25:47 UTC</createdTime>
+<ownerDesignName>mundialproyecto2</ownerDesignName>
+<engineerTo>
+<item key="4B3ED79B-6BF6-47E2-C05C-FF0821CE3E0C" value="true"/>
+</engineerTo>
+<use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id de arbitro" id="22F9111A-DF7F-A2F7-D96A-9E51EB2CF48A">
